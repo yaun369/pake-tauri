@@ -1,13 +1,13 @@
 {
   "package": {
-    "productName": "WeRead",
-    "version": "0.2.0"
+    "productName": "低端影视",
+    "version": "1.0.0"
   },
   "tauri": {
     "windows": [
       {
-        "url": "https://weread.qq.com/",
-        "transparent": true,
+        "url": "https://ddys.tv/",
+        "transparent": false,
         "fullscreen": false,
         "width": 1200,
         "height": 728,
@@ -18,7 +18,7 @@
       "all": true
     },
     "bundle": {
-      "icon": ["icons/weRead.icns"],
+      "icon": ["icons/youtube.icns"],
       "active": true,
       "category": "DeveloperTool",
       "copyright": "",
@@ -26,7 +26,7 @@
         "depends": []
       },
       "externalBin": [],
-      "identifier": "com.tw93.weRead",
+      "identifier": "tv.ddys.videos",
       "longDescription": "",
       "macOS": {
         "entitlements": null,
